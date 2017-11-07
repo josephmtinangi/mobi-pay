@@ -3,6 +3,14 @@
 		<div class="col-md-4 col-md-offset-4">
 			<h2>Register</h2>
 
+			<?php if(isset($_SESSION['errors'])): ?>
+				<div class="alert alert-danger">
+					<?php foreach($_SESSION['errors'] as $error): ?>
+						<li><?=$error?></li>
+					<?php endforeach; ?>
+				</div>
+			<?php endif; ?>
+
 			<form action="/register.php" method="POST">
 				<div class="form-group">
 					<label for="first_name">First name</label>
@@ -18,7 +26,7 @@
 				</div>
 				<div class="form-group">
 					<label for="password">Password</label>
-					<input type="text" name="password" id="password" class="form-control">
+					<input type="password" name="password" id="password" class="form-control">
 				</div>
 				<button type="submit" class="btn btn-primary">Register</button>
 			</form>
