@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Mobi Pay</title>
-</head>
-<body>
-	<h1>Mobi Pay</h1>
-	<p>Coming soon!</p>
-</body>
-</html>
+<div class="jumbotron">
+	<div class="container">
+		<h1>Mobi Pay</h1>
+		<p>Make payments using your mobile phone like a pro</p>
+		<p>
+			<a class="btn btn-primary btn-lg">Learn more</a>
+		</p>
+	</div>
+</div>
