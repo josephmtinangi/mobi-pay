@@ -1,0 +1,13 @@
+{
+    "name": "josephmtinangi/mobi-pay",
+    "description": "Make payments using your mobile phone",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joseph Mtinangi",
+            "email": "josephmtinangi@gmail.com"
+        }
+    ],
+    "require": {}
+}
