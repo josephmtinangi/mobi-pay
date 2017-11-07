@@ -28,8 +28,8 @@
 				<li><a href="#">Contact</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Login</a></li>
-				<li><a href="#">Register</a></li>
+				<li><a href="/login.php">Login</a></li>
+				<li><a href="/register.php">Register</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> <b class="caret"></b></a>
 					<ul class="dropdown-menu">
